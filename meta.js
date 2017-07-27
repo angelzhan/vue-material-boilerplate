@@ -40,6 +40,10 @@ module.exports = {
         }
       ]
     },
+    "lint": {
+      "type": "confirm",
+      "message": "Enable lint?"
+    },
     "lintConfig": {
       "type": "list",
       "message": "Pick an ESLint preset",
